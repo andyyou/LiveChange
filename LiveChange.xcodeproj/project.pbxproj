@@ -8,17 +8,78 @@
 
 /* Begin PBXBuildFile section */
 		392732CB2CD32C3F00A9F955 /* LiveChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392732CA2CD32C3F00A9F955 /* LiveChangeApp.swift */; };
-		392732CD2CD32C3F00A9F955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392732CC2CD32C3F00A9F955 /* ContentView.swift */; };
 		392732CF2CD32C4000A9F955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392732CE2CD32C4000A9F955 /* Assets.xcassets */; };
 		392732D22CD32C4000A9F955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392732D12CD32C4000A9F955 /* Preview Assets.xcassets */; };
+		392732D92CD3622600A9F955 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 392732D82CD3622600A9F955 /* GoogleService-Info.plist */; };
+		392732E72CD3647300A9F955 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 392732E62CD3647300A9F955 /* FirebaseFirestore */; };
+		392732EC2CD485FB00A9F955 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392732EB2CD485FB00A9F955 /* Option.swift */; };
+		392732EE2CD4869900A9F955 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392732ED2CD4869900A9F955 /* Poll.swift */; };
+		39DA18952CD616A600E67B44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18942CD616A600E67B44 /* HomeView.swift */; };
+		39DA18982CD616D900E67B44 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18972CD616D900E67B44 /* HomeVM.swift */; };
+		39DA189A2CD62B0600E67B44 /* PollChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18992CD62B0600E67B44 /* PollChartView.swift */; };
+		39DA189E2CD79DA800E67B44 /* PollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA189D2CD79DA800E67B44 /* PollView.swift */; };
+		39DA18A02CD79DBD00E67B44 /* PollVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA189F2CD79DBD00E67B44 /* PollVM.swift */; };
+		39DA18A72CD871D200E67B44 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA18A62CD871D200E67B44 /* WidgetKit.framework */; };
+		39DA18A92CD871D200E67B44 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA18A82CD871D200E67B44 /* SwiftUI.framework */; };
+		39DA18AC2CD871D200E67B44 /* LiveChangeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18AB2CD871D200E67B44 /* LiveChangeWidgetBundle.swift */; };
+		39DA18AE2CD871D200E67B44 /* LiveChangeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18AD2CD871D200E67B44 /* LiveChangeWidgetLiveActivity.swift */; };
+		39DA18B22CD871D300E67B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DA18B12CD871D300E67B44 /* Assets.xcassets */; };
+		39DA18B62CD871D300E67B44 /* LiveChangeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 39DA18A52CD871D200E67B44 /* LiveChangeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		39DA18BC2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18BB2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift */; };
+		39DA18BD2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18BB2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift */; };
+		39DA18BE2CD872DF00E67B44 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392732ED2CD4869900A9F955 /* Poll.swift */; };
+		39DA18BF2CD872DF00E67B44 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392732EB2CD485FB00A9F955 /* Option.swift */; };
+		39DA18C12CD8732400E67B44 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 39DA18C02CD8732400E67B44 /* FirebaseFirestore */; };
+		39DA18C32CD897AE00E67B44 /* PollChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA18992CD62B0600E67B44 /* PollChartView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DA18B42CD871D300E67B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392732BF2CD32C3F00A9F955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DA18A42CD871D200E67B44;
+			remoteInfo = LiveChangeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39DA18BA2CD871D300E67B44 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				39DA18B62CD871D300E67B44 /* LiveChangeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		392732C72CD32C3F00A9F955 /* LiveChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392732CA2CD32C3F00A9F955 /* LiveChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChangeApp.swift; sourceTree = "<group>"; };
-		392732CC2CD32C3F00A9F955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		392732CE2CD32C4000A9F955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392732D12CD32C4000A9F955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		392732D82CD3622600A9F955 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		392732EB2CD485FB00A9F955 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		392732ED2CD4869900A9F955 /* Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		3991DE442CD9E874005C48D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39DA18942CD616A600E67B44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39DA18972CD616D900E67B44 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		39DA18992CD62B0600E67B44 /* PollChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollChartView.swift; sourceTree = "<group>"; };
+		39DA189D2CD79DA800E67B44 /* PollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollView.swift; sourceTree = "<group>"; };
+		39DA189F2CD79DBD00E67B44 /* PollVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollVM.swift; sourceTree = "<group>"; };
+		39DA18A52CD871D200E67B44 /* LiveChangeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveChangeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DA18A62CD871D200E67B44 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		39DA18A82CD871D200E67B44 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		39DA18AB2CD871D200E67B44 /* LiveChangeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChangeWidgetBundle.swift; sourceTree = "<group>"; };
+		39DA18AD2CD871D200E67B44 /* LiveChangeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChangeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		39DA18B12CD871D300E67B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DA18B32CD871D300E67B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DA18BB2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChangeWidgetAttributes.swift; sourceTree = "<group>"; };
+		39DA18C22CD875A400E67B44 /* LiveChange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiveChange.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +87,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392732E72CD3647300A9F955 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DA18A22CD871D200E67B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA18A92CD871D200E67B44 /* SwiftUI.framework in Frameworks */,
+				39DA18A72CD871D200E67B44 /* WidgetKit.framework in Frameworks */,
+				39DA18C12CD8732400E67B44 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				392732C92CD32C3F00A9F955 /* LiveChange */,
+				39DA18AA2CD871D200E67B44 /* LiveChangeWidget */,
 				392732C82CD32C3F00A9F955 /* Products */,
+				392732E52CD3647300A9F955 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				392732C72CD32C3F00A9F955 /* LiveChange.app */,
+				39DA18A52CD871D200E67B44 /* LiveChangeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +126,13 @@
 		392732C92CD32C3F00A9F955 /* LiveChange */ = {
 			isa = PBXGroup;
 			children = (
+				3991DE442CD9E874005C48D5 /* Info.plist */,
+				39DA18C22CD875A400E67B44 /* LiveChange.entitlements */,
+				39DA18962CD616BA00E67B44 /* Observables */,
+				39DA18932CD6119100E67B44 /* Views */,
+				392732EA2CD485CB00A9F955 /* Models */,
+				392732D82CD3622600A9F955 /* GoogleService-Info.plist */,
 				392732CA2CD32C3F00A9F955 /* LiveChangeApp.swift */,
-				392732CC2CD32C3F00A9F955 /* ContentView.swift */,
 				392732CE2CD32C4000A9F955 /* Assets.xcassets */,
 				392732D02CD32C4000A9F955 /* Preview Content */,
 			);
@@ -67,6 +147,55 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		392732E52CD3647300A9F955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39DA18A62CD871D200E67B44 /* WidgetKit.framework */,
+				39DA18A82CD871D200E67B44 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		392732EA2CD485CB00A9F955 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				392732EB2CD485FB00A9F955 /* Option.swift */,
+				392732ED2CD4869900A9F955 /* Poll.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39DA18932CD6119100E67B44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39DA18942CD616A600E67B44 /* HomeView.swift */,
+				39DA18992CD62B0600E67B44 /* PollChartView.swift */,
+				39DA189D2CD79DA800E67B44 /* PollView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39DA18962CD616BA00E67B44 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				39DA18972CD616D900E67B44 /* HomeVM.swift */,
+				39DA189F2CD79DBD00E67B44 /* PollVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		39DA18AA2CD871D200E67B44 /* LiveChangeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				39DA18AB2CD871D200E67B44 /* LiveChangeWidgetBundle.swift */,
+				39DA18AD2CD871D200E67B44 /* LiveChangeWidgetLiveActivity.swift */,
+				39DA18BB2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift */,
+				39DA18B12CD871D300E67B44 /* Assets.xcassets */,
+				39DA18B32CD871D300E67B44 /* Info.plist */,
+			);
+			path = LiveChangeWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +206,40 @@
 				392732C32CD32C3F00A9F955 /* Sources */,
 				392732C42CD32C3F00A9F955 /* Frameworks */,
 				392732C52CD32C3F00A9F955 /* Resources */,
+				39DA18BA2CD871D300E67B44 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DA18B52CD871D300E67B44 /* PBXTargetDependency */,
+			);
+			name = LiveChange;
+			packageProductDependencies = (
+				392732E62CD3647300A9F955 /* FirebaseFirestore */,
+			);
+			productName = LiveChange;
+			productReference = 392732C72CD32C3F00A9F955 /* LiveChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DA18A42CD871D200E67B44 /* LiveChangeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DA18B72CD871D300E67B44 /* Build configuration list for PBXNativeTarget "LiveChangeWidgetExtension" */;
+			buildPhases = (
+				39DA18A12CD871D200E67B44 /* Sources */,
+				39DA18A22CD871D200E67B44 /* Frameworks */,
+				39DA18A32CD871D200E67B44 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LiveChange;
-			productName = LiveChange;
-			productReference = 392732C72CD32C3F00A9F955 /* LiveChange.app */;
-			productType = "com.apple.product-type.application";
+			name = LiveChangeWidgetExtension;
+			packageProductDependencies = (
+				39DA18C02CD8732400E67B44 /* FirebaseFirestore */,
+			);
+			productName = LiveChangeWidgetExtension;
+			productReference = 39DA18A52CD871D200E67B44 /* LiveChangeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +254,9 @@
 					392732C62CD32C3F00A9F955 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					39DA18A42CD871D200E67B44 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = 392732C22CD32C3F00A9F955 /* Build configuration list for PBXProject "LiveChange" */;
@@ -111,11 +268,15 @@
 				Base,
 			);
 			mainGroup = 392732BE2CD32C3F00A9F955;
+			packageReferences = (
+				392732DA2CD3642600A9F955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 392732C82CD32C3F00A9F955 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				392732C62CD32C3F00A9F955 /* LiveChange */,
+				39DA18A42CD871D200E67B44 /* LiveChangeWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +288,15 @@
 			files = (
 				392732D22CD32C4000A9F955 /* Preview Assets.xcassets in Resources */,
 				392732CF2CD32C4000A9F955 /* Assets.xcassets in Resources */,
+				392732D92CD3622600A9F955 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DA18A32CD871D200E67B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA18B22CD871D300E67B44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +307,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392732CD2CD32C3F00A9F955 /* ContentView.swift in Sources */,
+				392732EE2CD4869900A9F955 /* Poll.swift in Sources */,
+				39DA18A02CD79DBD00E67B44 /* PollVM.swift in Sources */,
+				392732EC2CD485FB00A9F955 /* Option.swift in Sources */,
+				39DA18982CD616D900E67B44 /* HomeVM.swift in Sources */,
+				39DA189E2CD79DA800E67B44 /* PollView.swift in Sources */,
+				39DA189A2CD62B0600E67B44 /* PollChartView.swift in Sources */,
+				39DA18BC2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift in Sources */,
+				39DA18952CD616A600E67B44 /* HomeView.swift in Sources */,
 				392732CB2CD32C3F00A9F955 /* LiveChangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39DA18A12CD871D200E67B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA18BE2CD872DF00E67B44 /* Poll.swift in Sources */,
+				39DA18BD2CD8724900E67B44 /* LiveChangeWidgetAttributes.swift in Sources */,
+				39DA18BF2CD872DF00E67B44 /* Option.swift in Sources */,
+				39DA18AE2CD871D200E67B44 /* LiveChangeWidgetLiveActivity.swift in Sources */,
+				39DA18C32CD897AE00E67B44 /* PollChartView.swift in Sources */,
+				39DA18AC2CD871D200E67B44 /* LiveChangeWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DA18B52CD871D300E67B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DA18A42CD871D200E67B44 /* LiveChangeWidgetExtension */;
+			targetProxy = 39DA18B42CD871D300E67B44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		392732D32CD32C4000A9F955 /* Debug */ = {
@@ -267,14 +465,19 @@
 		392732D62CD32C4000A9F955 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LiveChange/LiveChange.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LiveChange/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A6A49P89Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveChange/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,14 +499,19 @@
 		392732D72CD32C4000A9F955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LiveChange/LiveChange.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LiveChange/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A6A49P89Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveChange/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +524,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = city.uspace.LiveChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39DA18B82CD871D300E67B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A6A49P89Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveChangeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveChangeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = city.uspace.LiveChange.LiveChangeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39DA18B92CD871D300E67B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A6A49P89Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveChangeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveChangeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = city.uspace.LiveChange.LiveChangeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +605,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		39DA18B72CD871D300E67B44 /* Build configuration list for PBXNativeTarget "LiveChangeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DA18B82CD871D300E67B44 /* Debug */,
+				39DA18B92CD871D300E67B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		392732DA2CD3642600A9F955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		392732E62CD3647300A9F955 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 392732DA2CD3642600A9F955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		39DA18C02CD8732400E67B44 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 392732DA2CD3642600A9F955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 392732BF2CD32C3F00A9F955 /* Project object */;
 }
